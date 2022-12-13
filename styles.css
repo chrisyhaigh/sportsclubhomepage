@@ -1,0 +1,318 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-image: linear-gradient(45deg, green, purple);
+    color: white;
+    margin: 0;
+}
+
+/*Header * Nav styling */
+
+.header-container {
+    display: flex;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -0.475rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #800080;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: #008000;  
+    border-radius: 1em;
+    font-size: 1.275rem;
+    letter-spacing: 0.1em;
+    padding: 0.655em;
+    margin: 1em;
+    
+}
+
+nav ul li:hover {
+    font-weight: bold;
+    background-color: gold;
+    cursor: pointer;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+@media only screen and (max-width: 820px) {
+    nav ul li {
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 672px) {
+    nav ul li {
+    font-size: 0.75rem;
+}
+}
+    
+
+
+/*banner section*/
+
+.banner-container {
+    width: 100%;
+    background: rgba(0,0,0,0.7) url('resources/images/matthias-david-eE4hMhVmS1M-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 39.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+.join-section {
+   color: white;
+   text-align: center;
+   padding: 1.3em;
+   font-size: 2.376rem;
+   letter-spacing: 0.2em;
+}
+
+.join-section img {
+    border-radius: 5em;
+    
+}
+
+.join-btn {
+    color: white;
+    text-align: center;
+    background-color: green;
+    padding: 0.575rem;
+    width: 10.1em;
+    font-size: 1.075rem;
+    letter-spacing: 0.1em;
+    border-radius: 30px;
+}
+
+.join-btn:hover {
+    cursor: pointer;
+    background-color: gold;
+}
+ 
+@media only screen and (max-width: 672px) {
+    .join-section {
+        font-size: 1.676rem;    
+    }
+
+    .join-section img {
+        max-width: 70%;
+        max-height: 70%;
+        
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .join-section {
+        font-size: 1.376rem;    
+    }
+
+    .join-section img {
+        max-width: 70%;
+        max-height: 70%;
+        
+    }
+
+    .banner-container {
+        max-height: 31.25rem;
+    }
+}
+
+/*welcome Section*/
+
+.welcome-container {
+    padding: 2.40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction {
+    width: 90%;
+    font-size: 1.175rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.introduction a {
+    color: gold;
+}
+
+.introduction a:hover {
+    color: lightcoral;
+}
+
+.tennis-picture img {
+    padding-top: 3.25em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+@media screen only (max-width: 1400px) {
+    .welcome-container {
+    flex-direction: column;
+    }
+}
+
+@media screen only (max-width: 450px) {
+    .tennis-picture img {
+        width: 60%;
+}
+}
+
+/*facilities section*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+}
+
+.facilities-section {
+    background-color: white;
+    padding-top: 1rem;
+    display: flex;
+    width: 100%
+    color: black;
+    gap: 1em;
+    
+
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
+}
+
+
+@media screen only (max width: 1470) {
+
+}
+
+
+/* Champion Section */
+
+.champion-container {
+    background-image: linear-gradient(45deg, green, purple);
+    color: white;
+    font-weight: 200;
+    padding: 1em 1em;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.champion {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.champbtn {
+    background-color: purple;
+    color: white;
+    font-size: 1.075rem;
+    border-radius: 1em;
+    padding-left: 0.565em;
+    padding-right: 0.565em;
+    margin: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
+}
+
+.champbtn:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+@media screen only (max-width: 960px){
+    .champion-container {
+ 
+    }
+}
+
+/*footer section*/
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    font-size: 1.275rem;
+    background-color: #43464b;
+    
+}
+
+footer p {
+    margin-top: 30px;
+}
+
+footer img {
+    width: auto;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+
+
+@media only screen and (max-width: 760px) {
+    footer {
+        font-size: 1rem;
+       }
+}
+
+@media only screen and (max-width: 350px) {
+    footer {
+     font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    footer img {
+        width: auto;
+        padding: 10px;
+    
+    }
+}
+
