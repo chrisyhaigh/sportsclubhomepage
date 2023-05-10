@@ -68,7 +68,7 @@ li a {
 
 .banner-container {
     width: 100%;
-    background: rgba(0,0,0,0.7) url('resources/images/matthias-david-eE4hMhVmS1M-unsplash.jpg');
+    background: rgba(0,0,0,0.7) url('/matthias-david-eE4hMhVmS1M-unsplash.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
