@@ -15,11 +15,7 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: -0.475rem;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: space-around;
     background-color: #800080;
     color: white;
 }
@@ -32,9 +28,8 @@ nav ul li {
     display: inline-block;
     background-color: #008000;  
     border-radius: 1em;
-    font-size: 1.275rem;
     letter-spacing: 0.1em;
-    padding: 0.655em;
+    padding: 0.5em;
     margin: 1em;
     
 }
@@ -46,6 +41,7 @@ nav ul li:hover {
 }
 
 li a {
+    font-size: 1em;
     color: white;
     text-decoration: none;
     list-style: none;
@@ -59,7 +55,7 @@ li a {
 
 @media only screen and (max-width: 672px) {
     nav ul li {
-    font-size: 0.75rem;
+    font-size: 0.50rem;
 }
 }
     
@@ -93,8 +89,7 @@ li a {
 }
 
 .join-section img {
-    border-radius: 5em;
-    
+    border-radius: 5em;   
 }
 
 .join-btn {
@@ -168,6 +163,7 @@ li a {
 }
 
 .tennis-picture img {
+    text-align: center;
     padding-top: 3.25em;
     margin-left: auto;
     margin-right: auto;
@@ -215,6 +211,7 @@ li a {
 }
 
 .content img {
+    height: 80%;
     width: 80%;
 }
 /* Champion Section */
@@ -299,4 +296,5 @@ footer img {
     
     }
 }
+
 
