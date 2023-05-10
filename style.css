@@ -68,7 +68,7 @@ li a {
 
 .banner-container {
     width: 100%;
-    background: rgba(0,0,0,0.7) url('/matthias-david-eE4hMhVmS1M-unsplash.jpg');
+    background: rgba(0,0,0,0.7) url("/matthias-david-eE4hMhVmS1M-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,8 +118,8 @@ li a {
     }
 
     .join-section img {
-        max-width: 70%;
-        max-height: 70%;
+        max-width: 50%;
+        max-height: 50%;
         
     }
 }
@@ -130,8 +130,8 @@ li a {
     }
 
     .join-section img {
-        max-width: 70%;
-        max-height: 70%;
+        max-width: 30%;
+        max-height: 30%;
         
     }
 
@@ -175,16 +175,16 @@ li a {
     object-fit: cover;
 }
 
-@media screen only (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
     .welcome-container {
     flex-direction: column;
     }
 }
 
-@media screen only (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .tennis-picture img {
         width: 60%;
-}
+    }
 }
 
 /*facilities section*/
@@ -200,32 +200,18 @@ li a {
 .facilities-section {
     background-color: white;
     padding-top: 1rem;
-    display: flex;
-    width: 100%
+    padding-bottom: 1rem;
+    width: 100%;
     color: black;
-    gap: 1em;
-    
-
 }
 
-
-
 .content {
-    display: flex;
-    flex-direction: column;
     max-width: 90%;
     margin-top: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  
 }
-
-
-@media screen only (max width: 1470) {
-
-}
-
 
 /* Champion Section */
 
@@ -235,7 +221,6 @@ li a {
     font-weight: 200;
     padding: 1em 1em;
     display: flex;
-    width: 100%;
     flex-direction: column;
     text-align: center;
     padding-bottom: 2em;
@@ -264,11 +249,6 @@ li a {
     cursor: pointer;
 }
 
-@media screen only (max-width: 960px){
-    .champion-container {
- 
-    }
-}
 
 /*footer section*/
 
@@ -316,6 +296,4 @@ footer img {
     }
 }
 
-
-}
 
